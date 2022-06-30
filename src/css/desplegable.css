@@ -1,0 +1,46 @@
+.desplegable {
+  background-color: rgb(233, 233, 233);
+  width: 100vw;
+  height: 65vh;
+  position: absolute;
+  left: 0;
+  display: flex;
+  color: black;
+  justify-content: space-around;
+  top: 70px;
+  transition: all 0.5s;
+  clip-path: polygon(0 0, 100% 0%, 100% 0, 0 0);
+}
+.desplegable div {
+  transition: all 0.3s;
+  margin-top: 80px;
+}
+.desplegable div:hover {
+  color: rgba(0, 0, 0, 0.2509803922);
+}
+.desplegable div:hover ul li {
+  color: rgba(0, 0, 0, 0.2509803922);
+}
+.desplegable div h3 {
+  font-family: "Cantarell", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.desplegable div ul {
+  height: 50%;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.desplegable div ul li {
+  margin-top: 20px;
+  color: rgba(0, 0, 0, 0.5019607843);
+  transition: all 0.3s;
+}
+.desplegable div ul li:hover {
+  color: rgba(0, 0, 0, 0.5647058824);
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=desplegable.css.map */

@@ -1,0 +1,52 @@
+@use './variables';
+
+.desplegable{
+    background-color: rgb(233, 233, 233);
+    width: 100vw;
+    height: 65vh;
+    position: absolute;
+    left: 0;
+    display: flex;
+    color: black;
+    justify-content: space-around;
+    top: 70px;
+    transition: all .5s;
+    clip-path: polygon(0 0, 100% 0%, 100% 0, 0 0);
+
+    div{
+        transition: all .3s;
+
+        &:hover{
+            color: #00000040;
+
+            ul li {
+                color: #00000040;
+            }
+        }
+
+        margin-top: 80px;
+        h3{
+            font-family: 'Cantarell', sans-serif;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        ul{
+            height: 50%;
+            margin-top: 10px;
+            display: flex;
+            flex-direction: column;
+            li{
+                margin-top: 20px;
+                color: #00000080;
+                transition: all .3s;
+
+                &:hover{
+                    color: #00000090;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

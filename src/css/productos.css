@@ -1,0 +1,66 @@
+#productos {
+  width: 100%;
+  position: relative;
+  top: 60px;
+  display: flex;
+  background-color: #171717;
+}
+#productos .tarjeta {
+  width: 33%;
+  padding: 20px;
+}
+#productos .tarjeta .foto {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+#productos .tarjeta .foto img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.5s;
+}
+#productos .tarjeta .foto img:hover {
+  transform: scale(1.2);
+}
+#productos .tarjeta .texto {
+  color: #DEDEDE;
+  width: 100%;
+  padding-top: 20px;
+}
+#productos .tarjeta .texto h3 {
+  text-transform: uppercase;
+  font-family: "Cantarell", sans-serif;
+}
+#productos .tarjeta .texto p {
+  padding-top: 20px;
+}
+#productos .tarjeta .genero {
+  width: 100%;
+  display: flex;
+}
+#productos .tarjeta .genero div {
+  width: 35%;
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  color: #DEDEDE;
+  cursor: pointer;
+  margin-top: 20px;
+}
+#productos .tarjeta .genero div h4 {
+  padding-right: 20px;
+  text-transform: uppercase;
+}
+#productos .tarjeta .genero div svg {
+  width: 15px;
+  fill: #DEDEDE;
+}
+#productos .tarjeta .genero div:hover {
+  color: #F10820;
+}
+#productos .tarjeta .genero div:hover svg {
+  fill: #F10820;
+}
+
+/*# sourceMappingURL=productos.css.map */

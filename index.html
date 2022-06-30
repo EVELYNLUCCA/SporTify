@@ -8,10 +8,16 @@
     <!--Link CSS-->
     <link rel="stylesheet" href="./src/css/reset.css">
     <link rel="stylesheet" href="./src/css/header.css">
+    <link rel="stylesheet" href="./src/css/hero.css">
+    <link rel="stylesheet" href="./src/css/productos.css">
+    <link rel="stylesheet" href="./src/css/desplegable.css">
     
     <!--Link Font Awesome-->
     <script src="https://kit.fontawesome.com/55575aacf2.js" crossorigin="anonymous"></script>
-    
+
+    <!--Link Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300&family=Shadows+Into+Light&family=Titan+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@1,700&family=Caveat:wght@600;700&family=Oxygen:wght@300&family=Shadows+Into+Light&family=Titan+One&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
@@ -22,10 +28,10 @@
         
         <nav class="nav">
             <ul id="menu">
-                <li>Mujer</li>
-                <li>Hombre</li>
-                <li>Niños</li>
-                <li>Outlet</li>
+                <li id="first">Mujer</li>
+                <li id="second">Hombre</li>
+                <li id="three">Niños</li>
+                <li id="four">Outlet</li>
             </ul>
             <ul id="ingreso">
                 <li>
@@ -36,15 +42,151 @@
                 </li>
             </ul>
         </nav>
-        
+
+        <div class="desplegable">
+            <div class="seccion-desplegable">
+                <h3>Calzado</h3>
+                <ul>
+                    <li>Running</li>
+                    <li>Trail Running</li>
+                    <li>S-Lab</li>
+                    <li>Trekking</li>
+                    <li>Botas</li>
+                    <li>Accesorios de calzado</li>
+                </ul>
+            </div>
+            <div class="seccion-desplegable">
+                <h3>Ropa</h3>
+                <ul>
+                    <li>Camperas</li>
+                    <li>Buzos</li>
+                    <li>Remeras</li>
+                    <li>Pantalones Largos</li>
+                    <li>Pantalones Cortos</li>
+                    <li>Medias</li>
+                </ul>
+            </div>
+            <div class="seccion-desplegable">
+                <h3><a href="./calzado.html" style="color: inherit; text-decoration: none;">Calzado</a></h3>
+                <ul>
+                    <li>Running</li>
+                    <li>Trail Running</li>
+                    <li>S-Lab</li>
+                    <li>Trekking</li>
+                    <li>Botas</li>
+                    <li>Accesorios de calzado</li>
+                </ul>
+            </div>
+            <div class="seccion-desplegable">
+                <h3>Mochilas & Hidratación</h3>
+                <ul>
+                    <li>Mochilas</li>
+                    <li>Riñoneras</li>
+                    <li>Hidratación</li>
+                </ul>
+            </div>
+            <div class="seccion-desplegable">
+                <h3>Accesorios</h3>
+                <ul>
+                    <li>Guantes</li>
+                    <li>Gorras</li>
+                    <li>Necktubes</li>
+                </ul>
+            </div>
+        </div>
     </header>
 
     <main>
-
+    <div class="hero">
+        <img src="src/img/banner.jpeg" id="banner">
+            <div id="deporte">
+                <h3>traking</h3>
+            </div>
+            <div id="titulo">
+                <h1>breaking your limits</h1>
+            </div>
+            <div id="descripcion">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos rem numquam atque alias eaque earum</p>
+            </div>
+            <div id="comprar">
+                <h4 id="botonComprar">store</h4>
+                <svg id="flecha" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M438.6 278.6l-160 160C272.4 444.9 264.2 448 256 448s-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L338.8 288H32C14.33 288 .0016 273.7 .0016 256S14.33 224 32 224h306.8l-105.4-105.4c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160C451.1 245.9 451.1 266.1 438.6 278.6z"/></svg>
+            </div>
+    </div>
+    <div id="productos">
+        <div class="tarjeta">
+            <div class="foto">
+                <img src="https://mejorconsalud.as.com/fitness/wp-content/uploads/2018/02/correr-consejos-mejorar-zapatillas-461x279.jpg">
+        </div>
+        <div class="texto">
+            <h3>calzados</h3>
+            <p>Estabilizando tu andar mientras ejercitás</p>
+        </div>
+            <div class="genero">
+                <div>
+                    <h4>hombre</h4>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M438.6 278.6l-160 160C272.4 444.9 264.2 448 256 448s-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L338.8 288H32C14.33 288 .0016 273.7 .0016 256S14.33 224 32 224h306.8l-105.4-105.4c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160C451.1 245.9 451.1 266.1 438.6 278.6z"/></svg>
+                </div>
+                <div>
+                    <h4>mujer</h4>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M438.6 278.6l-160 160C272.4 444.9 264.2 448 256 448s-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L338.8 288H32C14.33 288 .0016 273.7 .0016 256S14.33 224 32 224h306.8l-105.4-105.4c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160C451.1 245.9 451.1 266.1 438.6 278.6z"/></svg>
+                </div>
+            </div>
+        </div>
+        <div class="tarjeta">
+            <div class="foto">
+                <img src="https://thumbs.dreamstime.com/b/dos-hombres-y-mujeres-asi%C3%A1ticos-que-siguen-los-corredores-usando-ropa-deportiva-est%C3%A1n-practicando-en-una-monta%C3%B1a-alta-detr%C3%A1s-226901951.jpg">
+        </div>
+        <div class="texto">
+            <h3>indumentaria</h3>
+            <p>Diseño, calidad y confort mientras entrenás</p>
+        </div>
+            <div class="genero">
+                <div>
+                    <h4>hombre</h4>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M438.6 278.6l-160 160C272.4 444.9 264.2 448 256 448s-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L338.8 288H32C14.33 288 .0016 273.7 .0016 256S14.33 224 32 224h306.8l-105.4-105.4c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160C451.1 245.9 451.1 266.1 438.6 278.6z"/></svg>
+                </div>
+                <div>
+                    <h4>mujer</h4>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M438.6 278.6l-160 160C272.4 444.9 264.2 448 256 448s-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L338.8 288H32C14.33 288 .0016 273.7 .0016 256S14.33 224 32 224h306.8l-105.4-105.4c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160C451.1 245.9 451.1 266.1 438.6 278.6z"/></svg>
+                </div>
+            </div>
+        </div>
+        <div class="tarjeta">
+            <div class="foto">
+                <img src="https://img.lalr.co/cms/2021/11/03155934/Senderismo.jpg">
+        </div>
+        <div class="texto">
+            <h3>accesorios y más...</h3>
+            <p>Mejorá tu experiencia</p>
+        </div>
+            <div class="genero">
+                <div>
+                    <h4>hombre</h4>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M438.6 278.6l-160 160C272.4 444.9 264.2 448 256 448s-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L338.8 288H32C14.33 288 .0016 273.7 .0016 256S14.33 224 32 224h306.8l-105.4-105.4c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160C451.1 245.9 451.1 266.1 438.6 278.6z"/></svg>
+                </div>
+                <div>
+                    <h4>mujer</h4>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M438.6 278.6l-160 160C272.4 444.9 264.2 448 256 448s-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L338.8 288H32C14.33 288 .0016 273.7 .0016 256S14.33 224 32 224h306.8l-105.4-105.4c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160C451.1 245.9 451.1 266.1 438.6 278.6z"/></svg>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="novedades">
+        <h1>novedades</h1>
+        <div class="card">
+            <img src="" alt="">
+            <h3 class="modelo"></h3>
+            <h3 class="precio"></h3>
+        </div>
+    </div>
+    
     </main>
 
     <footer>
         
     </footer>
+
+    <script src="./src/js/desplegable_nav.js"></script>
 </body>
 </html>

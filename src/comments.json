@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Evelynn Lucca",
+        "email": "emailuno@gmail.com",
+        "typeQuery": "queja",
+        "details": "una poronga sus zapatillas"
+    },
+    {
+        "name": "Anto",
+        "email": "emaildos@gmail.com",
+        "typeQuery": "felicitaciones",
+        "details": "los q bardean son re mamertos"
+    },
+    {
+        "name": "Federico Oviedo",
+        "email": "emailtres@gmail.com",
+        "typeQuery": "no compro nunca más",
+        "details": "no duran una concha"
+    },
+    {
+        "name": "Mariano Rossi",
+        "email": "emailcuatro@gmail.com",
+        "typeQuery": "queja",
+        "details": "duran lo mismo q un pedo en la mano"
+    },
+    {
+        "name": "Blacku",
+        "email": "emailcinco@gmail.com",
+        "typeQuery": "queja",
+        "details": "no tienen de mi talle"
+    }
+]

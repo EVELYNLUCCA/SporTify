@@ -1,0 +1,82 @@
+@use './variables';
+.hero{
+    width:100%;
+    height: 115vh;
+    position: relative;
+    top: 70px;
+
+    #banner{
+        width: 100%;
+        height: 100%; 
+        position: relative;
+    }
+
+    #deporte{
+        position: absolute;
+        color: variables.$colorTextoClaro;
+        text-transform: uppercase;
+        padding: 5px;
+        top: 55px;
+        left: 50px;
+        // z-index: 2;
+        border: solid 1px; 
+
+    }
+
+    #titulo{
+        position: absolute;
+        color: variables.$colorTextoClaro;
+        text-transform: uppercase;
+        font-size: 42px;
+        top: 150px;
+        left: 50px;
+        // z-index: 2;
+        font-family: 'Cantarell', sans-serif;
+    }
+
+    #descripcion{
+        width: 40%;
+        position: absolute;
+        color: variables.$colorTextoClaro;
+        font-size: 20px;
+        top: 250px;
+        left: 50px;
+        // z-index: 2;
+    }
+
+    #comprar{
+        position: absolute;
+        color: variables.$colorTextoClaro;
+        top: 410px;
+        left: 50px;
+        // z-index: 2;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+
+            &:hover {
+                color: variables.$rojito;
+
+                #flecha{
+                    fill: variables.$rojito;
+                }
+            }
+
+            #botonComprar{
+                border: none; 
+                text-transform: uppercase;
+                background: none;
+                padding-right: 10px;
+                font-size: 20px;
+                font-family: 'Cantarell', sans-serif; 
+                
+            }
+
+            #flecha{
+                width: 30px;
+                fill: variables.$colorTextoClaro;
+
+
+            }
+    }
+}

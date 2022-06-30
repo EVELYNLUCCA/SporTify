@@ -1,0 +1,25 @@
+main{
+    margin-top: 70px;
+}
+
+.container_products{
+    display: flex;
+    flex-wrap: wrap;
+    .product_card{
+        padding: 10px;
+        border: 1px solid #00000060;
+        border-radius: 20px;
+        margin: 20px;
+        height: 300px;
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+
+        img{
+            border-radius: 20px;
+            width: 100%;
+        }
+    }
+}
